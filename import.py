@@ -5,10 +5,13 @@ As a noSql database all I need is the thing I am storing
 Type: (Category, Session, etc)   This will be
 Recno: (serial number)
 Data: (As Json)
+
+Can setup csv imports with csv library.
 """
 
 from util import *
-import boto
+import boto, csv
+
 
 
 class LookupItem:
